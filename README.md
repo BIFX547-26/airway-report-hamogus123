@@ -39,7 +39,7 @@ transcriptional shift across all four cell lines:
 Differential Expression: See the volcano below for a visualization of
 differentially expressed genes.
 
-![](README_files/figure-commonmark/unnamed-chunk-2-1.png)
+![](README_files/figure-commonmark/unnamed-chunk-1-1.png)
 
 - Identification of CRISPLD2: The most notable finding was the high
   induction of the gene CRISPLD2 (Cysteine-Rich Secretory Protein LCCL

@@ -3,6 +3,11 @@ title: "Interactive Report: Airway Data"
 date: March 5, 2026
 bibliography: references.bib
 format: gfm
+
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 
@@ -39,14 +44,12 @@ The analysis revealed a robust and consistent transcriptional shift across all f
 Differential Expression: See the volcano below for a visualization of differentially expressed genes.
 
 ```{r}
-#| include: false
+#| context: server
 library(ggplot2)
 library(dplyr)
 library(plotly)
-```
 
-```{r}
-#| echo: false
+
 top2000 <- read.csv("https://gist.githubusercontent.com/johnsonra/121eb61bf4b09e4258b78e341b1819e9/raw/9d4d1650713378ce59e06a21b62f940433100a81/top_2000.csv")
 
 #significant threshold 
